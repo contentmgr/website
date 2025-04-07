@@ -20,7 +20,7 @@
     "description": "Find the best online deals and get free shipping on your first order!"
   },
   {
-    "src": "assets/img/sl6.jpeg",
+    "src": "assets/img/sl9.jpeg",
     "title": "Learn and Grow",
     "description": "Enhance your skills with top online courses and certifications at discounted prices."
   },
