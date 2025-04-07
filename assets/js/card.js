@@ -25,7 +25,7 @@
     "description": "Enhance your skills with top online courses and certifications at discounted prices."
   },
   {
-    "src": "assets/img/sl7.jpeg",
+    "src": "assets/img/sl3.jpeg",
     "title": "Fashion You Can Trust",
     "description": "Get your fashion style from the best brands with exclusive discounts."
   },
