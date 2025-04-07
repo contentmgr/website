@@ -627,8 +627,10 @@
   
   
   /*  Contact  */
-  .contact {
+  .contact,.contact a{
     /* background: radial-gradient(#e1efff, white); */
+    color:#944E63;
+    text-decoration: none;
   }
   
   .contact .title::after {
@@ -665,16 +667,16 @@
   
   .contact .contact-content .row i {
     font-size: 25px;
-    color: #1e3551;
+    /* color: #1e3551; */
   }
   
   .contact .contact-content .info .head {
     font-weight: 500;
-    color: #000;
+    /* color: #000; */
   }
   
   .contact .contact-content .info .sub-title {
-    color: #333;
+    /* color: #; */
   }
   
   .contact .right img {
