@@ -619,7 +619,7 @@
 
 
   
-  /*  Contact  */
+  /*  Gallery  */
   .gallery .title::after {
     content: "—See my gallery—";
   }
@@ -627,6 +627,9 @@
   
   
   /*  Contact  */
+  .contact{
+    padding-bottom: 50px;
+  }
   .contact,.contact a{
     /* background: radial-gradient(#e1efff, white); */
     color:#944E63;
@@ -837,7 +840,7 @@
   /*  Footer  */
   footer {
     background: #96445c;
-    padding: 6px 16px;
+    padding: 4px 16px;
     color: #F9DFDC;
     text-align: center;
   }
