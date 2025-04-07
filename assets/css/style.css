@@ -67,7 +67,7 @@
   .about,
   .services,
   .skills,
-  .projects,
+  .projects,.gallery,
   .contact,
   footer {
     font-family: "Poppins", sans-serif;
@@ -142,6 +142,7 @@
     color: #fff;
     font-size: 35px;
     font-weight: 600;
+    outline: none;
   }
   .navbar .logo img{
     max-width: 120px;
@@ -354,7 +355,8 @@
   
   /*  Service  */
   .services,
-  .projects {
+  .projects,
+  .gallery {
     /* color: #fff; */
     color: #944E63;
     /* background: #111; */
@@ -613,6 +615,16 @@
   .owl-dot:hover {
     background: #18365a !important;
   }
+
+
+
+  
+  /*  Contact  */
+  .gallery .title::after {
+    content: "—See my gallery—";
+  }
+  
+  
   
   /*  Contact  */
   .contact {
@@ -948,6 +960,7 @@
     height: 60vh;
     display: flex;
     background:#000;
+    border-radius: 15px;
 }
   .split .screen{
     position: relative;
@@ -967,25 +980,30 @@
     opacity: 1;
 }
 .split .screen:nth-child(1){
-    background:url(https://images.unsplash.com/photo-1611926653458-09294b3142bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background:url("../img/content4.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .split .screen:nth-child(2){
-    background:url(https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background:url("../img/content2.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .split .screen:nth-child(3){
-    background:url(https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background:url("../img/content3.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
 }
 .split .screen:nth-child(4){
-    background:url(https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background:url("../img/content3.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

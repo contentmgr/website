@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/card.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
   <script src="assets/js/script.js"></script>
 </head>
 <body>
@@ -18,7 +23,7 @@
     <!-- Header -->
     <nav class="navbar">
       <div class="max-width">
-        <div class="logo"><a href="#"><img src="assets/img/logo.png" alt="" width='80' srcset=""></a></div>
+        <div class="logo"><a href="#home"><img src="assets/img/logo.png" alt="" width='80' srcset=""></a></div>
         <ul class="menu">
           <li><a href="#home" class="menu-btn"><strong>Home</strong></a></li>
           <li><a href="#about" class="menu-btn"><strong>About</strong></a></li>
@@ -100,7 +105,7 @@
     </section>
   
     <!-- Skills -->
-    <section class="projects" id="projects">
+    <section class="projects" id="experience">
       <h2 class="title">My experience</h2>
       <div class="max-width">
         <div class="split">
@@ -145,6 +150,37 @@
       </div>
   
       </div> -->
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <h2 class="title">Gallery</h2>
+      <div class="max-width">
+
+        <div class="main-area">
+          <div class="main-image">
+            <img id="mainImage" src="" alt="Main Image" />
+          </div>
+          <div class="card-hover">
+            <div class="card-hover__content"  id="infoBox">
+            </div>
+            <div class="card-hover__extra">
+            </div>
+          </div>
+    
+    
+        </div>
+    
+    
+    
+        <div class="swiper-container-wrapper">
+          <div class="swiper-button-prev pulse"></div>
+          <div class="swiper-button-next pulse"></div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="thumbnails"></div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -212,7 +248,10 @@
         <span class="fa fa-copyright"></span> 2025 All Rights Reserved
       </span>
     </footer>
+
   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/card.js"></script>
 
 </body>
 </html>
