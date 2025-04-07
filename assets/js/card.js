@@ -5,9 +5,19 @@
             "description": "Discover the latest trends with discounts up to 50% off! Shop now!"
           },
           {
-            "src": "assets/img/sl6.jpeg",
+            "src": "assets/img/sl4.jpeg",
             "title": "Your Sporting Adventure Awaits",
             "description": "Gear up for your next outdoor adventure with up to 40% off sports equipment."
+          },
+          {
+            "src": "assets/img/sl3.jpeg",
+            "title": "Fashion You Can Trust",
+            "description": "Get your fashion style from the best brands with exclusive discounts."
+          },
+          {
+            "src": "assets/img/sl5.jpeg",
+            "title": "Perfect Getaways Await",
+            "description": "Book your dream vacation now with exclusive holiday packages for you!"
           },
   {
     "src": "assets/img/sl8.jpeg",
@@ -24,16 +34,7 @@
     "title": "Learn and Grow",
     "description": "Enhance your skills with top online courses and certifications at discounted prices."
   },
-  {
-    "src": "assets/img/sl3.jpeg",
-    "title": "Fashion You Can Trust",
-    "description": "Get your fashion style from the best brands with exclusive discounts."
-  },
-  {
-    "src": "assets/img/sl5.jpeg",
-    "title": "Perfect Getaways Await",
-    "description": "Book your dream vacation now with exclusive holiday packages for you!"
-  },
+  
   {
     "src": "assets/img/sl7.jpeg",
     "title": "Shop for the Future",
